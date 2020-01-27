@@ -18,7 +18,7 @@ function App() {
     if (running) {
       timer = setInterval(() => {
         //dentro de dois contextos diferentes(useEffect e setInterval)
-        //o valor de tempo não será preciso, "old" pega o valor
+        //o valor de tempo não será preciso, "old" pega o valor.
         setTempo(old => old + 1);
       }, 1000);
     }
