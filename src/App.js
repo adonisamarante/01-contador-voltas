@@ -20,7 +20,6 @@ function App() {
         //dentro de dois contextos diferentes(useEffect e setInterval)
         //o valor de tempo não será preciso, "old" pega o valor
         setTempo(old => old + 1);
-        // console.log(tempo);
       }, 1000);
     }
     return () => {
