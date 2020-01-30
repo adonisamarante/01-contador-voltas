@@ -41,6 +41,7 @@ function App() {
 
   const reset = () => {
     setNumVoltas(0);
+    setRunning(false);
     setTempo(0);
   };
 
