@@ -1,4 +1,5 @@
 Simple React app to show the average lap time based on the time itself and the number of laps.
+To understand hooks, using useState and useEffect.
 
 Made by me following the instructions in the ReactJS course by DevPleno.
 
